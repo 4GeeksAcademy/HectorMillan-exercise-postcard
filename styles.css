@@ -1,0 +1,83 @@
+body {
+	background: #f1f4f8;
+}
+
+input {
+	width: 95%;
+	border: none;
+	border-bottom: 2px solid hwb(214 9% 4%);
+	font-size: 14px;
+	color: #777777c7;
+}
+
+button {
+	padding: 10px;
+}
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+*/
+
+.postcard {
+	background: #ffffff;
+	width: 600px;
+	height: 350px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-right: 30px;
+}
+
+.postcard-header h1 {
+	width: 420px;
+	margin: 0;
+	margin-left: 30px;
+	font-family: "Sour Gummy", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.postcard-body {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	font-family: "Edu AU VIC WA NT Pre", cursive;
+	font-optical-sizing: auto;
+	font-style: normal;
+	text-decoration-color: #333333;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+	font-size: large;
+}
+
+.body-left {
+	padding: 10px;
+	flex: 1;
+	width: 100%;
+	margin-left: 20px;
+}
+
+.body-right {
+	padding: 10px;
+	flex: 1;
+	width: 100%;
+	margin-right: 20px;
+}
